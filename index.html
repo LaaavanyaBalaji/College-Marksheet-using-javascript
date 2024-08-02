@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+ <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+</head>
+<body>
+<script src="script.js"></script>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <header>
+                    <h6 id="sno" style="float:left;">Sr.No.<span style="color: red;">00000000</span></h6>
+                    <img src="images/qr code.png" style="float: right; height: 100px;width: 100px;">
+                   <img src="images/logo.jpg" style="height: 50px; width: 50px;margin-left: 800px;" id="logo">
+                    <img src="images/banner.png" style=" margin-left: 320px;" >
+                   <!-- <h1 id="clgname" style="text-align: center;">Hindusthan college of engineering and technology,Coimbatore</h1>
+                    <p class="descc"style="text-align: center;"> Associated with ANNA university,chennai</p>
+                    <p class="descc"style="text-align: center;"> An autonomus Institution Recognized by Government of India</p> -->
+               </header>
+            </div>
+                <table class="table0">
+                    <h3 style="text-align:center; color: brown;">Annual statement of Marks</h3>
+                      <tr>
+                        <th rowspan="7">Name of the candidate</th>
+                        <th rowspan="7">Course Name with Code</th>
+                    </tr>
+                 
+                    <tbody>
+                        <td>Lavanya B</td>
+                        <td>Bachelors of ENGINEERING<br>Electronics and Communication</td>
+                    </tbody>
+                </table>
+                <table class="table01">
+            
+                    <tr>
+                        <th rowspan="6">Register Number</th>
+                        <th rowspan="6">Enrollment Number</th>
+                        <th rowspan="12">Authorised training centre name with code</th>
+
+                    </tr>
+                 
+                    <tbody>
+                        <td>720721106059</td>
+                        <td>10902527</td>
+                        <td>1024<br>Anna University</td>
+
+                    </tbody>
+                </table>
+
+           <div class="table">
+            <table>
+                <table class="table1">
+                    <thead>
+                      <tr>
+                        <th scope="col">Subject Code</th>
+                        <th scope="col">Subject Name</th>
+                        <th scope="col">Max Marks</th>
+                        <th scope="col">Marks obtained in figures</th>
+                        <th scope="col">Total in words</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">21EC7201</th>
+                        <td>DIGITAL IMAGE PROCESSING</td>
+                        <td>100</td>
+                        <td id="marks1"><input type="text" id="marks1s"></td>
+                        <td id="marksw1"></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">21EC7202</th>
+                        <td>OPTICAL AND MICROWAVE ENGINEERING</td>
+                        <td>100</td>
+                        <td id="marks2"><input type="text" id="marks2s"></td>
+                        <td id="marksw2"></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">21EC7205</th>
+                        <td>WEARABLE DEVICES</td>
+                        <td>100</td>
+                        <td id="marks3"><input type="text" id="marks3s"></td>
+                        <td id="marksw3"></td>
+                     </tr> <tr>
+                        <th scope="row">21EC7206</th>
+                        <td>IOT PROCESSORS</td>
+                        <td>100</td>
+                        <td id="marks4"><input type="text" id="marks4s"></td>
+                        <td id="marksw4"></td>
+                     </tr> <tr>
+                        <th scope="row">21EC7001</th>
+                        <td>WIRELESS COMMUNICATION</td>
+                        <td>100</td>
+                        <td id="marks5"><input type="text" id="marks5s"></td>
+                        <td id="marksw5"></td>
+                     </tr> <tr>
+                        <th scope="row">21EC7901</th>
+                        <td>PROJECT PHASE 1</td>
+                        <td>100</td>
+                        <td id="marks6"><input type="text" id="marks6s"></td>
+                        <td id="marksw6"></td>
+                     </tr> <tr>
+                        <th scope="row">21EC7002</th>
+                        <td>ASIC DESIGN PHASE 1</td>
+                        <td>100</td>
+                        <td id="marks7"><input type="text" id="marks7s"></td>
+                        <td id="marksw7"></td>
+                     </tr> <tr>
+                        <th scope="row">21EC7991</th>
+                        <td>DIGITAL COMMUNICATION LAB</td>
+                        <td>100</td>
+                        <td id="marks8"><input type="text" id="marks8s" onkeypress=" return calculate()"></td>
+                        <td id="marksw8"></td>
+                     </tr>
+                      
+                        
+                    </tbody>
+                  </table>
+            </table>
+           </div>
+           <div class="col-12">
+             <p id="gdtot">Grand Total:</p><br>
+             <p id="totalw">In Words:</p>
+           </div>
+           <div class="col-12">
+           <div class="tablegrade">
+                <table class="table2">
+                    <thead>
+                      <tr>
+                        <th scope="col">Month and Year of Examination</th>
+                        <th scope="col">No. of Subject Offered</th>
+                        <th scope="col">Result</th>
+                        <th scope="col">Percentage</th>
+                        <th scope="col">Grade</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <th scope="row">May 2023</th>
+                          <td>T5+P3=8</td>
+                          <td id="passorfail"></td>
+                          <td id="Percentage"></td>
+                          <td id="grade"></td>
+                       </tr>
+                       </tbody>
+                 </table>
+           </div>
+        </div>
+    <foot>
+        <div class="col-6">
+      <p id="date" style="float: left;"> Date: <input type="date" ></p> </div>
+      <div class="col-6">
+     <div class="sign" style="float: inline-end;">
+        <input type="text" >
+        <p>(signature of<br>
+            deputy controller of <br>
+            examination)<br>
+    
+            Deputy controller of examination
+        </p> 
+  
+    </div>
+</div>
+</foot>
+<p style="text-align: center; margin-top: 150px;">Subject Marked * Indicated Exemption</p>
+
+           
+           
+           
+           
+           
+           
+           
+           
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
